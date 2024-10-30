@@ -74,6 +74,6 @@ class TestVarasto(unittest.TestCase):
         self.assertAlmostEqual(self.varasto.paljonko_mahtuu(), 4)
 
     def test_varasto_str_representation(self):
-        print("Hello from tests!")
+        print("Hello from tests again!")
         self.varasto.lisaa_varastoon(5)
         self.assertEqual(str(self.varasto), f"saldo = {self.varasto.saldo}, vielä tilaa {self.varasto.paljonko_mahtuu()}")
